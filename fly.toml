@@ -1,0 +1,23 @@
+app = 'ace96-bot'
+primary_region = 'sin'
+
+[build]
+
+[deploy]
+  strategy = 'immediate'
+
+[env]
+  PYTHONUNBUFFERED = '1'
+
+[processes]
+  app = "python bot.py"
+
+[[vm]]
+  memory = '1gb'
+  cpu_kind = 'shared'
+  cpus = 1
+  memory_mb = 1024
+
+[[mounts]]
+  source = "ace96_bot_data"
+  destination = "/data"
