@@ -170,7 +170,7 @@ async def handle_hot_game_tips(update: Update, context: ContextTypes.DEFAULT_TYP
     channel_text = """ACE96AU: Big Rewards. No Nonsense. 🎉
 
 🎁 Sign-Up Bonus: A$96.00 FREE. No Deposit.
-🎂 Daily Chance: Spin. Win up to $131. Every Day.
+🎰 Daily Chance: Spin. Win up to $131. Every Day.
 💰 First Deposit: We match 100%. Double Your Money.
 👑 VIP Perks: Daily treats & weekly rewards (up to $800).
 
